@@ -7,7 +7,8 @@
 
 <body>
   <h1>Sign up for New Relic Certification Study Group</h1>
-  <<fieldset>
+  <form method="get" action="#null" autocomplete="on">
+  <fieldset>
     <label>First Name:</label>
     <p>
       <input type="text" name="fname" placeholder="First Name">
@@ -24,10 +25,12 @@
     <p>
       <input type="text" name="organization_field" placeholder="Your Organization">
     </p>
-
-
+    <label>Role/Title:</label>
+    <p>
+      <input type="text" name="role field" placeholder="Your Role/Title">
+    </p>
   </fieldset>
-
-
+  </form>
+  <input type="submit" value="Lets get certified!" onClick="AlertScreen()" id="submitBtn">
 </body>
 </html>
