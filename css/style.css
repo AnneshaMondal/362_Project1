@@ -1,60 +1,53 @@
 body{
-  background: url("../css/NewRelic.png");
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-family: "Times New Roman", Times;
-  text-align: center;
-  font-size: 20px;
-  color:white;
-  vertical-align: middle;
+     background: url("../css/NewRelic.png");
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     font-family: "Times New Roman", Times;
+     text-align: center;
+     font-size: 20px;
+     color:white;
+     vertical-align: middle;
 }
-
-label{
-  float:none;
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
+ label{
+     float:none;
+     display: inline-block;
+     margin-right: auto;
+     margin-left: auto;
+     text-align: center;
 }
-
-h1{
-  color:#00c2c7;
-  font-style: oblique;
-  font-family: Times;
-  font size:3em;
-  text-shadow:#00c2c7 0 0 100px;
+ h1{
+     color:#00c2c7;
+     font-style: oblique;
+     font-family: Times;
+     font size:3em;
+     text-shadow:#00c2c7 0 0 100px;
 }
-
-input::placeholder{
-  text-align: center;
+ input::placeholder{
+     text-align: center;
 }
-
-div{
-  height: 70px;
-  align-items: center;
-  text-align: center;
+ div{
+     height: 70px;
+     align-items: center;
+     text-align: center;
 }
-
-.box{
-  text-align: center;
-  height: auto;
-  width: auto;
-  padding: 10px;
-  background-color: #48D1CC;
+ .box{
+     text-align: center;
+     height: auto;
+     width: auto;
+     padding: 10px;
+     background-color: #48D1CC;
 }
-
-input[type=text], input[type=email] {
-  width: 25%;
-  font: 15px;
-  padding: 7px;
-  vertical-align: middle;
+ input[type=text], input[type=email] {
+     width: 25%;
+     font: 15px;
+     padding: 7px;
+     vertical-align: middle;
 }
-
-input [type=submit]{
-  align-items: center;
-  width: 16%;
-  margin: 25px;
-  border-radius: 50%
-  font size:4em;
+ input [type=submit]{
+     align-items: center;
+     width: 16%;
+     margin: 25px;
+     border-radius: 50% font size:4em;
 }
+ 
