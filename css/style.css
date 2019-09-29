@@ -17,3 +17,11 @@ label{
   margin-left: auto;
   text-align: center;
 }
+
+h1{
+  color:#00c2c7;
+  font-style: normal;
+  font-family: Times;
+  font size:3em;
+  text-shadow:#00c2c7 0 0 100px;
+}
