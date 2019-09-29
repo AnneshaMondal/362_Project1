@@ -9,3 +9,11 @@ body{
   color:white;
   vertical-align: middle;
 }
+
+label{
+  float:none;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
