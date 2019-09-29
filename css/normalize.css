@@ -13,8 +13,7 @@
 html {
 line-height: 1.15;
 /* 1 */
--webkit-text-size-adjust: 1xlmcsl;
-mc00%;
+
 /* 2 */
 }
 
@@ -208,6 +207,8 @@ outline-offset: -2px;
 /* 1 */
 font: inherit;
 /* 2 */
+}
+
 details {
   display: block;
 }
