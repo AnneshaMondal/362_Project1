@@ -1,14 +1,27 @@
 body{
-     background: url("../css/NewRelic.png");
+     background: ("css/nr1.png");
      margin-left: auto;
      margin-right: auto;
      text-align: center;
-     font-family: "Times New Roman", Times;
+     font-family: 'Lobster', monospace, cursive;
      text-align: center;
-     font-size: 20px;
+     font-size: 1.25em;
      color:white;
      vertical-align: middle;
 }
+
+@media only screen and (max-width:750px){
+  body{
+    color:white;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  body {
+    font-size: 3.375em;
+    color:white;
+  }
+
  label{
      float:none;
      display: inline-block;
@@ -17,17 +30,25 @@ body{
      text-align: center;
 }
  h1{
-     color:#00c2c7;
+     color:white;
      font-style: oblique;
      font-family: Times;
-     font-size:48px;
-     text-shadow:#00c2c7 0 0 100px;
+     font-size:1.5em;
+     text-shadow:white 0 0 1em;
 }
+
+@media  only screen and (min-width: 1000px){
+  body {
+    font-size:2.25em;
+    color:white;
+}
+  }
+
  input::placeholder{
      text-align: center;
 }
  div{
-     height: 70px;
+     height: 7em;
      align-items: center;
      text-align: center;
 }
@@ -35,19 +56,22 @@ body{
      text-align: center;
      height: auto;
      width: auto;
-     padding: 10px;
+     padding: 1em;
      background-color: #48D1CC;
 }
+
+
  input[type=text], input[type=email] {
      width: 25%;
-     font: 15px;
-     padding: 7px;
+     font: 1em;
+     padding: 0.7em;
      vertical-align: middle;
 }
  input [type=submit]{
      align-items: center;
      width: 16%;
-     margin: 25px;
+     margin: 2.5em;
      border-radius: 50% ;
-     font-size:64px;
+     font-size:6.4em;
+     font-family:  'Lobster', monospace, sans-serif;
 }
