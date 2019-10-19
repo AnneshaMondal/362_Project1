@@ -46,7 +46,7 @@ body{
 }
  input[type=text], input[type=email] {
      width: 25%;
-     font: 15px;
+     font: 10px;
      padding: 7px;
      vertical-align: middle;
 }
