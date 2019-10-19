@@ -6,20 +6,20 @@ body{
      font-family: "Times New Roman", Times;
      text-align: center;
      font-size: 20px;
-     color:#00c2c7;
+     color:white;
      vertical-align: middle;
 }
 
 @media only screen and (max-width:750px){
   body{
-    color:#00c2c7;
+    color:white;
   }
 }
 
 @media only screen and (min-width: 1300px) {
   body {
     font-size: 3.375em;
-    color:#00c2c7;
+    color:white;
   }
 
  label{
@@ -30,18 +30,18 @@ body{
      text-align: center;
 }
  h1{
-     color:#00c2c7;
+     color:white;
      font-style: oblique;
      font-family: Times;
      font-size:1.5em;
-     text-shadow:#00c2c7 0 0 100px;
+     text-shadow:white 0 0 100px;
 }
 
-@media  only screen and (min-width: 1000px)
+@media  only screen and (min-width: 1000px){
   body {
     font-size:2.25em;
-    color:#00c2c7;
-
+    color:white;
+}
   }
 
  input::placeholder{
