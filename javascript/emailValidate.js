@@ -1,8 +1,8 @@
-function ValidateEmail() {
-if(email_field.value=="")
-{
-window.alert("Please enter your e-mail.")
-email_field.focus();
-return false;
+function emailValidate() {
+
+var email=document.getElementById("email_field").value;
+if(email==""){
+  alert("Please enter your e-mail.");
+  return false;
 }
 }
